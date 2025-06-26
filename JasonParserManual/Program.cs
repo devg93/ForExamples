@@ -26,6 +26,7 @@ public class Program
 
         var p = new { FirstName = "Anna", SecretNote = "don't share" };
         string json = CustomSerialize2.CustomSerialize(p);
+        var Res013 = JsonSerializer.Deserialize<dynamic>(json);
         Console.WriteLine(json);
 
 

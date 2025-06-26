@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JasonParserManual")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c870f5f238c7f85954159a813e975a39558eb811")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea1d2808fc0744e860a8eaf90c9cf0e3ededdbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("JasonParserManual")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JasonParserManual")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
