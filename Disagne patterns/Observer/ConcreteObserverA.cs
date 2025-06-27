@@ -12,6 +12,7 @@ namespace Observer
         {
             if ((subject as Subject).State < 3)
             {
+        
                 Console.WriteLine("ConcreteObserverA: Reacted to the event.");
             }
         }
