@@ -1,0 +1,333 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/Bootstraper/Bootstraper.csproj": {}
+  },
+  "projects": {
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/Bootstraper/Bootstraper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/Bootstraper/Bootstraper.csproj",
+        "projectName": "Bootstraper",
+        "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/Bootstraper/Bootstraper.csproj",
+        "packagesPath": "/home/neo/.nuget/packages/",
+        "outputPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/Bootstraper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/OrderService.Api.csproj": {
+                "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/OrderService.Api.csproj"
+              },
+              "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj": {
+                "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/OrderService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/OrderService.Api.csproj",
+        "projectName": "OrderService.Api",
+        "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/OrderService.Api.csproj",
+        "packagesPath": "/home/neo/.nuget/packages/",
+        "outputPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj",
+        "projectName": "OrderService.Application",
+        "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj",
+        "packagesPath": "/home/neo/.nuget/packages/",
+        "outputPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/OrderService.Infrastruqture.csproj": {
+                "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/OrderService.Infrastruqture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/OrderService.Infrastruqture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/OrderService.Infrastruqture.csproj",
+        "projectName": "OrderService.Infrastruqture",
+        "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/OrderService.Infrastruqture.csproj",
+        "packagesPath": "/home/neo/.nuget/packages/",
+        "outputPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj": {
+                "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj",
+        "projectName": "OrderService.domain",
+        "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj",
+        "packagesPath": "/home/neo/.nuget/packages/",
+        "outputPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

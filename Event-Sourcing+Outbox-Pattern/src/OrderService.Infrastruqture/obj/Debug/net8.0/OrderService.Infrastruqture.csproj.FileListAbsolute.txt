@@ -1,0 +1,16 @@
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/bin/Debug/net8.0/OrderService.Infrastruqture.deps.json
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/bin/Debug/net8.0/OrderService.Infrastruqture.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/bin/Debug/net8.0/OrderService.Infrastruqture.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/bin/Debug/net8.0/OrderService.domain.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/bin/Debug/net8.0/OrderService.domain.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.csproj.AssemblyReference.cache
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.GeneratedMSBuildEditorConfig.editorconfig
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.AssemblyInfoInputs.cache
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.AssemblyInfo.cs
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.csproj.CoreCompileInputs.cache
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.sourcelink.json
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.csproj.CopyComplete
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/refint/OrderService.Infrastruqture.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/OrderService.Infrastruqture.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Infrastruqture/obj/Debug/net8.0/ref/OrderService.Infrastruqture.dll

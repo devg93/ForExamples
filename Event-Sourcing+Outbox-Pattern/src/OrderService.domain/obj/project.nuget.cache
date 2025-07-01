@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1EyUjLIn5NpAyiojfKQnQAhjyBt0kL1RM498tGc3kKH7n1kimTJ6p+AfJWP/+VAEA2EwvejEeHGyuFbi82YYoA==",
+  "success": true,
+  "projectFilePath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/OrderService.domain.csproj",
+  "expectedPackageFiles": [
+    "/home/neo/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
+    "/home/neo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/neo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

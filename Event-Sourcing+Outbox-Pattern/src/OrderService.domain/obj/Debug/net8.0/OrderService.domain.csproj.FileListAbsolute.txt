@@ -1,0 +1,12 @@
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/bin/Debug/net8.0/OrderService.domain.deps.json
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/bin/Debug/net8.0/OrderService.domain.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/bin/Debug/net8.0/OrderService.domain.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.AssemblyInfoInputs.cache
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.AssemblyInfo.cs
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.csproj.CoreCompileInputs.cache
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.sourcelink.json
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/refint/OrderService.domain.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/OrderService.domain.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.domain/obj/Debug/net8.0/ref/OrderService.domain.dll
