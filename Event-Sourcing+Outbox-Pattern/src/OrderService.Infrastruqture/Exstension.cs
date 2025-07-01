@@ -12,6 +12,7 @@ namespace OrderService.Infrastruqture
             services.AddScoped<OutboxProcessor>();
             services.AddScoped<IRepository, Repository>();
             services.AddScoped<IOutboxService, EfOutboxService>();
+            services.AddHostedService<OutboxProcessor>();
 
             services.AddDbContext<AppDbcontext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
