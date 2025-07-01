@@ -11,3 +11,10 @@
 /home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/obj/Debug/net8.0/refint/OrderService.Api.dll
 /home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/obj/Debug/net8.0/OrderService.Api.pdb
 /home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/obj/Debug/net8.0/ref/OrderService.Api.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.Application.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.domain.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.Infrastruqture.dll
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.Application.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.domain.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/bin/Debug/net8.0/OrderService.Infrastruqture.pdb
+/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Api/obj/Debug/net8.0/OrderService.Api.csproj.CopyComplete

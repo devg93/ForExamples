@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using OrderService.Application;
 
 namespace MyApp.Namespace
 {
@@ -11,7 +12,7 @@ namespace MyApp.Namespace
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateOrder([FromBody] Order order)
+        public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand order)
         {
             if (order == null)
             {
@@ -19,7 +20,7 @@ namespace MyApp.Namespace
             }
 
 
-            return Ok("Order created successfully");
+            return Ok(await mediatR.Send(order));
         }
 
         [HttpGet("{id}")]

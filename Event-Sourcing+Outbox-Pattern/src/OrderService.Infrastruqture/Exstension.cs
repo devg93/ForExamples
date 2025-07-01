@@ -1,21 +1,22 @@
-
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using OrderService.domain.Abstractions;
 
 namespace OrderService.Infrastruqture
 {
-    public static class Exstension
+    public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastruqtureServices(this IServiceCollection serviceDescriptors)
+        public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
-            serviceDescriptors.AddScoped<OutboxProcessor>();
-            serviceDescriptors.AddScoped<IRepository, Repository>();
-            serviceDescriptors.AddScoped<IOutboxService, EfOutboxService>();
-            // serviceDescriptors.AddScoped<IDomainEventDispatcher, DomainEventDispatcher>();
+            services.AddScoped<OutboxProcessor>();
+            services.AddScoped<IRepository, Repository>();
+            services.AddScoped<IOutboxService, EfOutboxService>();
 
-            return serviceDescriptors;
+            services.AddDbContext<AppDbcontext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
+            return services;
         }
-        
     }
 }

@@ -1,23 +1,21 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using OrderService.Application.Event;
+using OrderService.domain.Abstractions;
+using System.Reflection;
 
 namespace OrderService.Api
 {
-    public static class Exstensions
+    public static class Extensions
     {
-        public static IServiceCollection AddOrdeApirService(this IServiceCollection services)
+        public static IServiceCollection AddOrderApiServices(this IServiceCollection services)
         {
-            // Register your services here
-            // Example: services.AddScoped<IOrderService, OrderService>();
+            // თუ შენი Handler-ები სხვა პროექტშია:
+            services.AddMediatR(cfg => { cfg.RegisterServicesFromAssembly(typeof(Application.CreateOrderHandler).Assembly); });
+            services.AddScoped<IDomainEventDispatcher, DomainEventDispatcher>();
 
-            // Register the DbContext
-            // Example: services.AddDbContext<AppDbcontext>(options => options.UseSqlServer("YourConnectionString"));
-
-            // Register the OutboxProcessor
-            // Example: services.AddHostedService<OutboxProcessor>();
+            // ან თუ ესაა ერთპროექტიანი აპი:
+            // services.AddMediatR(Assembly.GetExecutingAssembly());
 
             return services;
         }

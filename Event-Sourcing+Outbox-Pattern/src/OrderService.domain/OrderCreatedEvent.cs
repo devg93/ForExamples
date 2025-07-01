@@ -20,10 +20,6 @@ namespace OrderService.domain
             Amount = amount;
         }
 
-        public void OrderCreated(int id, string customerName, decimal amount)
-        {
-            throw new NotImplementedException();
-        }
     }
 
 }

@@ -1,11 +1,12 @@
 using OrderService.Api;
+using OrderService.Infrastruqture;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers();
-builder.Services.AddOrdeApirService(); // Custom extension method to register services
+builder.Services.AddOrderApiServices(); // შენი extension method
+builder.Services.AddInfrastructureServices(builder.Configuration); // შენი extension method
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -20,19 +21,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+// ❗ ეს დაგაკლდა — ამით რეგისტრირდება `[ApiController]` კლასები:
+app.MapControllers();
 
-app.MapGet("/weatherforecast", () =>
-{
-    
-    return summaries;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
-
+// (არ არის საჭირო weatherforecast Route თუ არ იყენებ)
 app.Run();
-
-

@@ -33,13 +33,16 @@ namespace OrderService.Application
 
             await _repository.AddOrder(order);
 
-            await _dispatcher.DispatchAsync(order.Events);
-
-            order.ClearEvents();
 
 
             foreach (var @event in order.Events)
                 await _outboxService.SaveEventAsync(@event);
+
+
+
+            await _dispatcher.DispatchAsync(order.Events);
+
+            order.ClearEvents();
 
             return "";
         }

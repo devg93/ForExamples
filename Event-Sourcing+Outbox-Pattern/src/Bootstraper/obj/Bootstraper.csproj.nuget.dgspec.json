@@ -98,7 +98,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj": {
+                "projectPath": "/home/neo/Desktop/ForExamples/Event-Sourcing+Outbox-Pattern/src/OrderService.Application/OrderService.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -246,6 +250,14 @@
               "version": "[12.5.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.6, )"
             }

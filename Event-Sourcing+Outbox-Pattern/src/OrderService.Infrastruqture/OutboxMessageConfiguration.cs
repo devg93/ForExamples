@@ -12,7 +12,7 @@ namespace OrderService.Infrastruqture
     {
         public void Configure(EntityTypeBuilder<OutboxMessage> builder)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
