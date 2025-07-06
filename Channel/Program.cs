@@ -12,7 +12,7 @@ var channel = Channel.CreateBounded<string>(new BoundedChannelOptions(100)
             for (int i = 0; i < 5; i++)
             {
                 await channel.Writer.WriteAsync($"Message {i}");
-                await Task.Delay(500);
+                //await Task.Delay(500);
             }
 
             channel.Writer.Complete(); // დაასრულე ჩაწერა
