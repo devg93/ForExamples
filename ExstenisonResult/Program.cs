@@ -129,11 +129,29 @@ public static class TaskResultExtensions
     }
 }
 
-public static class ResultExtensions
+
+
+public static class ValueTaskResultExtensions
 {
-    public static TOut Fold<T, TOut>(this Result<T> result, Func<T, TOut> onSuccess, Func<string?, TOut> onFailure)
-        => result.IsSuccess ? onSuccess(result.Value) : onFailure(result.Error);
+    public static async ValueTask<Result<T>> AsResult<T>(this ValueTask<T> task)
+    {
+        try
+        {
+            var value = await task;
+            return Result<T>.Success(value);
+        }
+        catch (Exception ex)
+        {
+            return Result<T>.Failure(ex.Message);
+        }
+    }
 }
+
+// public static class ResultExtensions
+// {
+//     public static TOut Fold<T, TOut>(this Result<T> result, Func<T, TOut> onSuccess, Func<string?, TOut> onFailure)
+//         => result.IsSuccess ? onSuccess(result.Value) : onFailure(result.Error);
+// }
 
 public class Program
 {

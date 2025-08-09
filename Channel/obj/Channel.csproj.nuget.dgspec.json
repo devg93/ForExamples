@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/neo/Desktop/ForExamples/Channel/Channel.csproj": {}
+    "/home/neo/Desktop/Projects/ForExamples/Channel/Channel.csproj": {}
   },
   "projects": {
-    "/home/neo/Desktop/ForExamples/Channel/Channel.csproj": {
+    "/home/neo/Desktop/Projects/ForExamples/Channel/Channel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/neo/Desktop/ForExamples/Channel/Channel.csproj",
+        "projectUniqueName": "/home/neo/Desktop/Projects/ForExamples/Channel/Channel.csproj",
         "projectName": "Channel",
-        "projectPath": "/home/neo/Desktop/ForExamples/Channel/Channel.csproj",
+        "projectPath": "/home/neo/Desktop/Projects/ForExamples/Channel/Channel.csproj",
         "packagesPath": "/home/neo/.nuget/packages/",
-        "outputPath": "/home/neo/Desktop/ForExamples/Channel/obj/",
+        "outputPath": "/home/neo/Desktop/Projects/ForExamples/Channel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/neo/.nuget/NuGet/NuGet.Config"

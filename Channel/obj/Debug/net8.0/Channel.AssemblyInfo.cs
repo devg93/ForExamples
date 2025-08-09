@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Channel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97610b1dd2afb68f07a47937604cb48a214d0105")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c494f273bfb1d4382a58310e0d5087ab9eee84f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Channel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Channel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
