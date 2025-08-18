@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gkkuB79J0WSfDIRux6+pKLn4bgXvAlB1Qww15gDIoJ6e//lkfO3PAkF2+gQ2UNfrNwookz+U9wXvQtGMD+O+fg==",
+  "dgSpecHash": "roUxpF+Q1lLNn8fd7QCefOx2r1Zpo8OwFfueFa7C9M2chBVdS7bO/zgfryb9ZUDCLzBRMWCzkaZt96kmaKSOWg==",
   "success": true,
-  "projectFilePath": "/home/neo/Desktop/ForExamples/Disagne patterns/Factory/Factory.csproj",
+  "projectFilePath": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/Factory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

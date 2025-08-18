@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/Factory.csproj": {}
+    "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Builder/Builder.csproj": {}
   },
   "projects": {
-    "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/Factory.csproj": {
+    "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Builder/Builder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/Factory.csproj",
-        "projectName": "Factory",
-        "projectPath": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/Factory.csproj",
+        "projectUniqueName": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Builder/Builder.csproj",
+        "projectName": "Builder",
+        "projectPath": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Builder/Builder.csproj",
         "packagesPath": "/home/neo/.nuget/packages/",
-        "outputPath": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Factory/obj/",
+        "outputPath": "/home/neo/Desktop/Projects/ForExamples/Disagne patterns/Builder/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/neo/.nuget/NuGet/NuGet.Config"
