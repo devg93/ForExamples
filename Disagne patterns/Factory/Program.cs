@@ -9,7 +9,7 @@ public class ServiceB : IService
 {
     public void Speak()
     {
-       Console.WriteLine("service A ");
+       Console.WriteLine("service B ");
     }
 }
 
@@ -41,11 +41,11 @@ public class Program
     {
         IService animal = ServiceFactory.CreateService(1);
         animal.Speak();
-        int key = 4;
-        if (key == 1)
-        {
-            animal.Speak();
-        }
+        
+        animal = ServiceFactory.CreateService(2);
+        animal.Speak();
+
+     
 
     }
 }
