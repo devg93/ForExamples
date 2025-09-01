@@ -41,6 +41,11 @@ public class Program
     {
         IService animal = ServiceFactory.CreateService(1);
         animal.Speak();
+        int key = 4;
+        if (key == 1)
+        {
+            animal.Speak();
+        }
 
     }
 }
